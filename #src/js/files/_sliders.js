@@ -3,7 +3,9 @@ const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
 	loop: true,
-  
+	loopedSlides : 1,
+	slidesPerView: 1,
+  	simulateTouch: true,
 	// If we need pagination
 	pagination: {
 	  el: '.swiper-pagination',

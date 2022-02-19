@@ -111,3 +111,119 @@
         // }
     }
 }
+
+
+//.wrapper-bottom-header {}
+.wrapper-bottom-header {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+
+   //.wrapper-bottom-header__list {}
+    &__list {
+        min-width: 530px;
+        display: flex;
+        justify-content: space-between;
+    }
+    //.wrapper-bottom-header__item {}
+    &__item {
+       
+    }
+    //.wrapper-bottom-header__link {}
+    &__link {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}
+
+
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    // height: 600px;
+    // height: 1024px;
+    position: relative;
+    border: 2px solid red;
+    z-index: 3;
+// .slider-content__main-img {}
+    &__main-img {
+        min-width: 100%;
+        height: 100%;
+    }
+    
+}
+.slider-header{
+    width: 100%;
+}
+.swiper{
+    width: 100%;
+
+}
+.swiper-wrapper{
+    width: 100%;
+}
+.slider-header__content {}
+.content-slider-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+    top: 310px;
+    max-width: 1278px;
+    // transform: translateY(-50%);
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+
+// .content-slider-header
+    &__promotion--top {
+        text-align: center;
+    }
+// .content-slider-header
+    &__promotion--bottom {
+        text-align: center;
+        color: #B0E5FF;
+    }
+// .content-slider-header
+    &__sell {
+        font-size: 12px;
+    }
+// .content-slider-header__order-btn
+    &__order-btn {
+        top: 985px;
+        width: 340px;
+        min-height: 60px;
+        margin-top: 60px;
+        color: #fff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 175%;
+        background: linear-gradient(89.89deg, #60C0BC 0.08%, #4EB5E7 51.42%, #7662A7 101.08%);
+    }
+// .content-slider-header
+    &__scrolldown-btn {
+
+    }
+// .content-slider-header__scrolldown-btn
+    &__scrolldown-btn{
+        position: absolute;
+    }
+}
+._btn {}

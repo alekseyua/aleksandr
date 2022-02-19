@@ -44,7 +44,7 @@
           </div>
 
           <div class="header__wrapper-bottom wrapper-bottom-header">
-            <ul class="wrapper-bottom-header__list">
+            <ul class="wrapper-bottom-header__list"> 
               <li class="wrapper-bottom-header__item"><a href="#" class="wrapper-bottom-header__link">О нас</a></li>
               <li class="wrapper-bottom-header__item"><a href="#" class="wrapper-bottom-header__link">Доставка и
                   оплата</a></li>
@@ -58,9 +58,24 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide"><img src="../img/slider/1.svg"></div>
-              <div class="swiper-slide"><img src="../img/slider/1.svg"></div>
-              <div class="swiper-slide"><img src="../img/slider/1.svg"></div>
+              <div class="swiper-slide slider-content">
+                <img class="slider-content__main-img _ibg" src="../img/slider/1.svg">
+                  <div class="slider-header__content content-slider-header">
+                    <h1 class="content-slider-header__promotion--top">При покупке 2-х комплектов</h1>
+                    <h1 class="content-slider-header__promotion--bottom">2 подушки в подарок!</h1>
+                    <p class="content-slider-header__sell">*  Акция действует до 10 октября 2022 года включительно</p>
+                    <button 
+                      class="content-slider-header__order-btn _btn"
+                      type="submit"
+                    >Заказать и получить подарок
+                    </button>
+
+                  </div>
+                  <button class="content-slider-header__scrolldown-btn">
+                    сдесь будет кнопка вниз на следующий блок
+                  </button>
+              </div>
+              
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
